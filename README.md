@@ -11,8 +11,6 @@ The Analytics Dashboard is a web-based dashboard designed to display and visuali
 - [Screen view](#Screen-view)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Project Structure
@@ -83,3 +81,7 @@ The `assets` directory contains various image files used for icons, logos, and g
 
    ```bash
    git clone https://github.com/your-username/analytics-dashboard.git
+
+## Acknoledgement
+[Geepay Africa](https://www.geegpay.africa/)
+[David Herbert](https://twitter.com/DaveyHert)
