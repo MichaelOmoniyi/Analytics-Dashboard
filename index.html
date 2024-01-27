@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main Container -->
     <div class="mainContainer">
+        <!-- Sidebar Section -->
         <section class="sidebar">
             <div class="navlinks">
+                <!-- Sidebar Icons and logos -->
                 <img class="logo_two" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo" onclick="closeSidebar()">
                 <img class="logo_ls" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo">
                 <img class="category" src="assets/Analytics Dashboard/Navbar icons/category.svg" alt="Category icon">
@@ -18,10 +21,12 @@
                 <img src="assets/Analytics Dashboard/Navbar icons/box.png" alt="Box icon">
                 <img src="assets/Analytics Dashboard/Navbar icons/discount-shape.png" alt="Discount icon">
                 <img src="assets/Analytics Dashboard/Navbar icons/info-circle.png" alt="Info icon">
+                <!-- Theme switch icons -->
                 <div class="theme">
                     <img id="light" class="theme_switch" src="assets/Analytics Dashboard/Navbar icons/Frame 427319677.png" alt="Light icon">
                     <img id="dark" class="theme_switch" src="assets/Analytics Dashboard/Navbar icons/moon 1.png" alt="Moon icon">
                 </div>
+                <!-- Explore icons -->
                 <div class="explore">
                     <img src="assets/Analytics Dashboard/Navbar icons/arrow-right.png" alt="Arror right icon">
                     <img src="assets/Analytics Dashboard/Navbar icons/setting-2.png" alt="Setting icon">
@@ -29,15 +34,20 @@
                 </div>
             </div>
         </section>
+        
+        <!-- Body section -->
         <section class="body">
             <header>
+                <!-- Header Section (small screen) -->
                 <div class="header-sm">
                     <img class="logo" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo" onclick="openSidebar()">
                     <h3>Dashboard</h3>
                     <img class="profilePic" src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="Profile img" onclick="openCloseProfile()">
                 </div>
+                <!-- Header Section (large screen) -->
                 <div class="header-ls">
                     <h3>Dashboard</h3>
+                    <!-- Search, reminder and profile section -->
                     <div class="search_profile">
                         <div class="search_ls">
                             <label for="search"><img src="assets/Analytics Dashboard/Header Icons/Seacrh.png" alt="Search icon"></label>
@@ -62,6 +72,7 @@
                         <img class="profilePic" src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="Profile img" onclick="openCloseProfile()">
                     </div>
                 </div>
+                <!-- Profile dropdown for small screen -->
                 <div class="dropdown">
                     <div class="profile">
                         <img src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="">
@@ -83,8 +94,10 @@
                     </div>
                 </div>
             </header>
+            <!-- Main body -->
             <main>
                 <div class="t-row">
+                    <!-- Sale trend section -->
                     <div class="salesTrend">
                         <div class="salesTrend_header">
                             <h3>Sales Trend</h3>
@@ -124,6 +137,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Sale statistics section -->
                     <div class="salesStats">
                         <div class="stat-row">
                             <div class="stat">
@@ -180,6 +194,7 @@
                     </div>
                 </div>
                 <div class="l-row">
+                    <!-- Table containing list of orders -->
                     <div class="lastOrder">
                         <div class="lastOrder_header">
                             <h3>Last Orders</h3>
@@ -232,6 +247,7 @@
                             </table>
                         </div>
                     </div>
+                    <!-- Top platforms section -->
                     <div class="topPlatforms">
                         <div class="topPlatform_header">
                             <h3>Top Platform</h3>
