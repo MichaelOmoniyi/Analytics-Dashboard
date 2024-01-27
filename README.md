@@ -57,7 +57,7 @@ The `assets` directory contains various image files used for icons, logos, and g
 
 ## Screen View
 ### Mobile view
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+).png">
 
 <img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+) (1).png">
 
