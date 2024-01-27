@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <section class="sidebar">
+            <div class="navlinks">
+                <img class="logo_two" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo" onclick="closeSidebar()">
+                <img class="logo_ls" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo">
+                <img class="category" src="assets/Analytics Dashboard/Navbar icons/category.svg" alt="Category icon">
+                <img src="assets/Analytics Dashboard/Navbar icons/trend-up.png" alt="Trend icon">
+                <img src="assets/Analytics Dashboard/Navbar icons/profile-2user.png" alt="Profile icon">
+                <img src="assets/Analytics Dashboard/Navbar icons/box.png" alt="Box icon">
+                <img src="assets/Analytics Dashboard/Navbar icons/discount-shape.png" alt="Discount icon">
+                <img src="assets/Analytics Dashboard/Navbar icons/info-circle.png" alt="Info icon">
+                <div class="theme">
+                    <img id="light" class="theme_switch" src="assets/Analytics Dashboard/Navbar icons/Frame 427319677.png" alt="Light icon">
+                    <img id="dark" class="theme_switch" src="assets/Analytics Dashboard/Navbar icons/moon 1.png" alt="Moon icon">
+                </div>
+                <div class="explore">
+                    <img src="assets/Analytics Dashboard/Navbar icons/arrow-right.png" alt="Arror right icon">
+                    <img src="assets/Analytics Dashboard/Navbar icons/setting-2.png" alt="Setting icon">
+                    <img src="assets/Analytics Dashboard/Navbar icons/logout.png" alt="Arror left icon">
+                </div>
+            </div>
+        </section>
+        <section class="body">
+            <header>
+                <div class="header-sm">
+                    <img class="logo" src="assets/Analytics Dashboard/Navbar icons/Vector.png" alt="Logo" onclick="openSidebar()">
+                    <h3>Dashboard</h3>
+                    <img class="profilePic" src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="Profile img" onclick="openCloseProfile()">
+                </div>
+                <div class="header-ls">
+                    <h3>Dashboard</h3>
+                    <div class="search_profile">
+                        <div class="search_ls">
+                            <label for="search"><img src="assets/Analytics Dashboard/Header Icons/Seacrh.png" alt="Search icon"></label>
+                            <input id="search" type="text" name="search" placeholder="Search...">
+                        </div>
+                        <div class="reminder_notification">
+                            <img src="assets/Analytics Dashboard/Header Icons/Group.png" alt="">
+                            <p><b>November 15, 2023</b></p>
+                            <!-- <img src="assets/Analytics Dashboard/Header Icons/Vector.png" alt=""> -->
+                            <span class="notification">
+                                <img src="assets/Analytics Dashboard/Header Icons/Vector (1).png" alt="Notification icon">
+                            </span>
+                        </div>
+                        <div class="profileInfo_pic">
+                            <img src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="Profile Pic">
+                            <div class="profileInfo">
+                                <p><b>Justin Bergson</b></p>
+                                <p>Justin@gmail.com</p>
+                            </div>
+                            <img src="assets/Analytics Dashboard/Header Icons/Stroke-1.png" alt="">
+                        </div>
+                        <img class="profilePic" src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="Profile img" onclick="openCloseProfile()">
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="profile">
+                        <img src="assets/Analytics Dashboard/Header Icons/Rectangle 1061.png" alt="">
+                        <div class="name_email">
+                            <p>Justin Bergson</p>
+                            <p>Justin@gmail.com</p>
+                        </div>
+                        <img src="assets/Analytics Dashboard/Header Icons/Stroke-1.png" alt="Dropdown icon">
+                    </div>
+                    <div class="info">
+                        <img src="assets/Analytics Dashboard/Header Icons/Group.png" alt="">
+                        <p><b>November 15, 2023</b></p>
+                        <!-- <img src="assets/Analytics Dashboard/Header Icons/Vector.png" alt=""> -->
+                        <img src="assets/Analytics Dashboard/Header Icons/Vector (1).png" alt="Notification icon">
+                    </div>
+                    <div class="search">
+                        <label for="search"><img src="assets/Analytics Dashboard/Header Icons/Seacrh.png" alt="Search icon"></label>
+                        <input id="search" type="text" name="search" placeholder="Search...">
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="t-row">
+                    <div class="salesTrend">
+                        <div class="salesTrend_header">
+                            <h3>Sales Trend</h3>
+                            <div class="range">
+                                <p>Short by:</p>
+                                <span><p>Weekly</p><span class="drop-arrow"><img src="assets/Analytics Dashboard/Header Icons/Stroke-1.png" alt=""></span></span>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div class="trend-row">
+                                <div class="sales">
+                                    <p>50.000</p>
+                                    <p>40.000</p>
+                                    <p>30.000</p>
+                                    <p>20.000</p>
+                                    <p>10.000</p>
+                                    <p>5.000</p>
+                                    <p>0</p>
+                                </div>
+                                <!-- <img class="Amount" src="assets/Analytics Dashboard/Sales/Amount.png" alt="Amount"> -->
+                                <img class="graph" src="assets/Analytics Dashboard/Sales/Bar.png" alt="Bar Chart">
+                                <!-- <img src="assets/Analytics Dashboard/Sales/Frame 427318828.png" alt="Days"> -->
+                            </div>
+                            <div class="months">
+                                <p>Jan</p>
+                                <p>Feb</p>
+                                <p>Mar</p>
+                                <p>Apr</p>
+                                <p>Mei</p>
+                                <p>Jun</p>
+                                <p>Jul</p>
+                                <p>Aug</p>
+                                <p>Sep</p>
+                                <p>Oct</p>
+                                <p>Nov</p>
+                                <p>Dec</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salesStats">
+                        <div class="stat-row">
+                            <div class="stat">
+                                <div class="statImage">
+                                    <img src="assets/Analytics Dashboard/Stats/box-tick.png" alt="box-tick">
+                                    <img src="assets/Analytics Dashboard/Stats/Vector 2.png" alt="trending up">
+                                </div>
+                                <p class="description">Total Order</p>
+                                <p class="amount"><b>350</b></p>
+                                <div class="scale">
+                                    <span><img src="assets/Analytics Dashboard/Stats/trending-up.png" alt="Trending up"> 23,5%</span>
+                                    <p>vs. previous months</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="statImage">
+                                    <img src="assets/Analytics Dashboard/Stats/3d-rotate.png" alt="box-tick">
+                                    <img src="assets/Analytics Dashboard/Stats/Vector 1.png" alt="trending up">
+                                </div>
+                                <p class="description">Total Refund</p>
+                                <p class="amount"><b>270</b></p>
+                                <div class="scale">
+                                    <span><img src="assets/Analytics Dashboard/Stats/trending-up (1).png" alt="Trending up"> 23,5%</span>
+                                    <p>vs. previous months</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-row">
+                            <div class="stat">
+                                <div class="statImage">
+                                    <img src="assets/Analytics Dashboard/Stats/shopping-cart.png" alt="box-tick">
+                                    <img src="assets/Analytics Dashboard/Stats/Vector 1.png" alt="trending up">
+                                </div>
+                                <p class="description">Average Sales</p>
+                                <p class="amount"><b>1567</b></p>
+                                <div class="scale">
+                                    <span><img src="assets/Analytics Dashboard/Stats/trending-up (1).png" alt="Trending up"> 23,5%</span>
+                                    <p>vs. previous months</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="statImage">
+                                    <img src="assets/Analytics Dashboard/Stats/coin.png" alt="box-tick">
+                                    <img src="assets/Analytics Dashboard/Stats/Vector 2.png" alt="trending up">
+                                </div>
+                                <p class="description">Total Income</p>
+                                <p class="amount"><b>$350.000</b></p>
+                                <div class="scale">
+                                    <span><img src="assets/Analytics Dashboard/Stats/trending-up.png" alt="Trending up"> 23,5%</span>
+                                    <p>vs. previous months</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-row">
+                    <div class="lastOrder">
+                        <div class="lastOrder_header">
+                            <h3>Last Orders</h3>
+                            <p>See All</p>
+                        </div>
+                        <div class="orderTable">
+                            <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Invoice</th>
+                                </tr>
+                                <tr>
+                                    <td class="name"><img src="assets/Analytics Dashboard/Table icons/Marcus.png" alt="Marcus Pic"> <p>Marcus Bergson</p></td>
+                                    <td>Nov 15, 2023</td>
+                                    <td class="amount">$80,000</td>
+                                    <td class="paid">Paid</td>
+                                    <td><img src="assets/Analytics Dashboard/Table icons/document-download.png" alt="document download icon"> View</td>
+                                </tr>
+                                <tr>
+                                    <td class="name"><img src="assets/Analytics Dashboard/Table icons/Jaydon.png" alt="Jaydon Pic"> <p>Jaydon Vaccaro</p></td>
+                                    <td>Nov 15, 2023</td>
+                                    <td class="amount">$150,000</td>
+                                    <td class="refund">Refund</td>
+                                    <td><img src="assets/Analytics Dashboard/Table icons/document-download.png" alt="document download icon"> View</td>
+                                </tr>
+                                <tr>
+                                    <td class="name"><img src="assets/Analytics Dashboard/Table icons/Corey.png" alt="Corey Pic"> <p>Corey Schleifer</p></td>
+                                    <td>Nov 14, 2023</td>
+                                    <td class="amount">$100,000</td>
+                                    <td class="paid">Paid</td>
+                                    <td><img src="assets/Analytics Dashboard/Table icons/document-download.png" alt="document download icon"> View</td>
+                                </tr>
+                                <tr>
+                                    <td class="name"><img src="assets/Analytics Dashboard/Table icons/Cooper.png" alt="Cooper Pic"> <p>Cooper Press</p></td>
+                                    <td>Nov 14, 2023</td>
+                                    <td class="amount">$80,000</td>
+                                    <td class="refund">Refund</td>
+                                    <td><img src="assets/Analytics Dashboard/Table icons/document-download.png" alt="document download icon"> View</td>
+                                </tr>
+                                <tr>
+                                    <td class="name"><img src="assets/Analytics Dashboard/Table icons/Philip.png" alt="Phillip Pic"> <p>Phillip Lubin</p></td>
+                                    <td>Nov 13, 2023</td>
+                                    <td class="amount">$78,000</td>
+                                    <td class="paid">Paid</td>
+                                    <td><img src="assets/Analytics Dashboard/Table icons/document-download.png" alt="document download icon"> View</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="topPlatforms">
+                        <div class="topPlatform_header">
+                            <h3>Top Platform</h3>
+                            <p>See All</p>
+                        </div>
+                        <div class="platforms">
+                            <div class="platform">
+                                <h3>Book Bazaar</h3>
+                                <img src="assets/Analytics Dashboard/Progress icons/deep blue progress bar.png" alt="Deep blue progress bar">
+                                <div class="price">
+                                    <p>$2,500,000</p>
+                                    <p>+15%</p>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <h3>Artisan Aisle</h3>
+                                <img src="assets/Analytics Dashboard/Progress icons/light blue progress bar.png" alt="Light blue progress bar">
+                                <div class="price">
+                                    <p>$1,800,000</p>
+                                    <p>+10%</p>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <h3>Toy Troop</h3>
+                                <img src="assets/Analytics Dashboard/Progress icons/orange progress bar.png" alt="Orange progress bar">
+                                <div class="price">
+                                    <p>$1,200,000</p>
+                                    <p>+8%</p>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <h3>XStore</h3>
+                                <img src="assets/Analytics Dashboard/Progress icons/red progress bar.png" alt="Red progress bar">
+                                <!-- <div class="price">
+                                    <p>$600,000</p>
+                                    <p>+4%</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
