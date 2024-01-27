@@ -59,21 +59,21 @@ The `assets` directory contains various image files used for icons, logos, and g
 ### Mobile view
 <img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+).png">
 
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+) (1).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+) (1).png">
 
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+) (2).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S8+) (2).png">
 
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S20 Ultra).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(Samsung Galaxy S20 Ultra).png">
 
 ### Ipad view
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(iPad Mini).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(iPad Mini).png">
 
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(iPad Mini) (1).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_(iPad Mini) (1).png">
 
 ### Desktop screen
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_.png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_.png">
 
-<img src="../Analytics-Dashboard/assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_ (1).png">
+<img src="assets/Analytics Dashboard/Screenshots/127.0.0.1_5500_ (1).png">
 
 ## Getting Started
 
