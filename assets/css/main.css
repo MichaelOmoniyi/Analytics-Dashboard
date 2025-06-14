@@ -1,0 +1,65 @@
+/* Global CSS Variables */
+:root {
+  /* Light Theme */
+  --page-bg: #fafafa;
+  --card-bg: #ffffff;
+  --sidebar-bg: #ffffff;
+  --text-color: #26282c;
+  --text-color-secondary: #787486;
+  --accent-color: #34caa5;
+  --search-bg: #f5f5f5;
+  --dropdown-bg: #f5f5f5;
+  --progress-bg: #f5f5f5;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --page-bg: #1a1c23;
+  --card-bg: #292d32;
+  --sidebar-bg: #292d32;
+  --text-color: #ffffff;
+  --text-color-secondary: #b4b4b4;
+  --search-bg: #383d45;
+  --dropdown-bg: #383d45;
+  --progress-bg: #383d45;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--page-bg);
+  transition: background-color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global Layout */
+.body-full {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+  }
+}
